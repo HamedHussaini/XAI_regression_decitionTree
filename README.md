@@ -18,32 +18,32 @@ It demonstrates how explainable machine learning can help uncover relationships 
 ---
 
 ## Project Structure
-
-XAI_regression_decisionTree/
-│
-├── example_data/
-│ ├── historic_brazil.csv # historical training data
-│ └── future_brazil.csv # future climate data for prediction
-│
-├── output/
-│ ├── brazil_model.bin # trained model (binary)
-│ └── predictions.csv # predicted dengue cases
-│
-├── shap_brazil/ # SHAP explanations
-│ ├── global/ # global feature importance plots
-│ └── local/ # local instance explanations
-│
-├── lime_brazil/ # LIME explanations
-│
-├── train.py # trains Random Forest model
-├── predict.py # runs predictions using trained model
-├── XAI_brazil_forest_shap.py # local SHAP explanations
-├── XAI_brazil_forest_global.py # global SHAP analysis
-├── lime_explain_brazil.py # LIME local explanation script
-├── isolated_run.py # test script (train + predict pipeline)
-├── requirements.txt # dependencies
-└── README.md # project documentation
-
+---
+    XAI_regression_decisionTree/
+    │
+    ├── example_data/
+    │ ├── historic_brazil.csv # historical training data
+    │ └── future_brazil.csv # future climate data for prediction
+    │
+    ├── output/
+    │ ├── brazil_model.bin # trained model (binary)
+    │ └── predictions.csv # predicted dengue cases
+    │
+    ├── shap_brazil/ # SHAP explanations
+    │ ├── global/ # global feature importance plots
+    │ └── local/ # local instance explanations
+    │
+    ├── lime_brazil/ # LIME explanations
+    │
+    ├── train.py # trains Random Forest model
+    ├── predict.py # runs predictions using trained model
+    ├── XAI_brazil_forest_shap.py # local SHAP explanations
+    ├── XAI_brazil_forest_global.py # global SHAP analysis
+    ├── lime_explain_brazil.py # LIME local explanation script
+    ├── isolated_run.py # test script (train + predict pipeline)
+    ├── requirements.txt # dependencies
+    └── README.md # project documentation
+---
 ## Usage
 ### 1️⃣ Train the model
 python train.py example_data/historic_brazil.csv output/brazil_model.bin
