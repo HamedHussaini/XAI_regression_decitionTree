@@ -64,12 +64,15 @@ python XAI_brazil_forest_global.py
 ```
 python lime_explain_brazil.py
 ```
-## 🧩 Explainable AI Methods
-Method	Type	Purpose	Description
-SHAP (SHapley Additive exPlanations)	Model-agnostic / Global + Local	Quantifies how each feature contributes to each prediction, ensuring consistency and additivity.	
-LIME (Local Interpretable Model-agnostic Explanations)	Model-agnostic / Local	Approximates the complex model locally around one instance using a simple, interpretable model.	
-Permutation Importance	Model-agnostic / Global	Measures how performance changes when a feature is randomly shuffled.	
-Partial Dependence Plot (PDP)	Model-agnostic / Global	Shows how predicted outcomes change as one or two features vary.	
+## Explainable AI Methods
+
+| Method | Type | Purpose | Description |
+|--------|------|----------|-------------|
+| **SHAP (SHapley Additive exPlanations)** | Model-agnostic / Global + Local | Quantifies how each feature contributes to each prediction, ensuring consistency and additivity. |
+| **LIME (Local Interpretable Model-agnostic Explanations)** | Model-agnostic / Local | Approximates the complex model locally around one instance using a simple, interpretable model. |
+| **Permutation Importance** | Model-agnostic / Global | Measures how performance changes when a feature is randomly shuffled. |
+| **Partial Dependence Plot (PDP)** | Model-agnostic / Global | Shows how predicted outcomes change as one or two features vary. |
+
 ## Example Outputs
 
 ### SHAP Summary (Global)
@@ -93,12 +96,15 @@ Mean temperature influences dengue transmission risk non-linearly (moderate temp
 Model explanations allow local health authorities to prioritize surveillance and intervention based on climate forecasts.
 
 ## Technologies Used
-Category	Tools
-Programming	Python 3.10+
-ML Framework	scikit-learn
-Explainability	SHAP, LIME
-Visualization	matplotlib
-Data Handling	pandas, numpy 
+
+| Category | Tools |
+|-----------|--------|
+| **Programming** | Python 3.10+ |
+| **ML Framework** | scikit-learn |
+| **Explainability** | SHAP, LIME |
+| **Visualization** | matplotlib |
+| **Data Handling** | pandas, numpy |
+ 
 
 ### Research Relevance
 
