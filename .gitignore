@@ -1,24 +1,4 @@
-# Ignore IDE & environment files
-.idea/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
 .env
-.venv/
-.vscode/
 
-# Ignore large model files and outputs
-*.bin
-*.joblib
-*.pkl
-*.csv
-*.png
-*.html
-shap_brazil/
-lime_brazil/
-output/
 
-# OS junk files
-.DS_Store
-Thumbs.db
