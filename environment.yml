@@ -1,0 +1,13 @@
+name: chap_rf_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - joblib
+  - pip
+  - pip:
+      - matplotlib
+      - seaborn
